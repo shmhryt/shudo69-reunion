@@ -1,0 +1,585 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>修道高校69回生同窓会</title>
+<meta name="description" content="修道高校69回生同窓会。2027年9月4日（土）リーガロイヤルホテル広島。日本三大酒どころ・西条の修道OBと挑む鏡開きギネス記録挑戦。開催3か月前から広島をJackします。">
+<meta property="og:title" content="修道高校69回生同窓会 ｜ 攻めの修道魂。">
+<meta property="og:description" content="広島から世界への挑戦。鏡開きギネス記録挑戦。開催3か月前から、広島をJackします。拡散Welcome!">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@500;700;800&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* 修道300周年特設サイトのえんじ色を基調に */
+  --red:#721e27;        /* 修道えんじ（ベース） */
+  --red-d:#4f141b;      /* 濃えんじ */
+  --red-dd:#3a0f14;     /* 最濃 */
+  --gold:#9c7a25;       /* 金 */
+  --gold-l:#c9a54e;     /* えんじ上の文字用の金 */
+  --paper:#f5f5f5;
+  --black:#161622;
+  --text:#ffffff;
+  --muted:#ead6d8;
+  --line:rgba(255,255,255,.2);
+  --en:"Times New Roman",Times,"Shippori Mincho B1",serif;
+  --mincho:"Shippori Mincho B1","Hiragino Mincho ProN",serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;overflow-x:clip}
+body{background:var(--red);color:var(--text);font-family:"Noto Sans JP",system-ui,sans-serif;
+  line-height:1.8;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+.eyebrow{font-family:var(--en);font-weight:700;letter-spacing:.2em;font-size:13px;color:var(--gold-l)}
+h2.sec{font-family:var(--mincho);font-weight:800;font-size:clamp(28px,5vw,48px);line-height:1.35;margin:.3em 0 .6em;letter-spacing:.04em}
+section{padding:96px 0;position:relative}
+
+/* ---------- NAV ---------- */
+nav{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;justify-content:space-between;align-items:center;
+  padding:12px 20px;background:rgba(58,15,20,.9);backdrop-filter:blur(8px);border-bottom:1px solid rgba(201,165,78,.35)}
+nav .logo{font-family:var(--mincho);font-weight:700;font-size:17px;letter-spacing:.14em;color:#efe6d6;
+  display:flex;align-items:center;gap:10px;white-space:nowrap}
+nav .logo::before{content:"";width:3px;height:20px;background:var(--gold)}
+nav .logo .n{font-family:var(--en);font-weight:700;font-size:20px;letter-spacing:.02em;color:var(--gold-l);margin:0 -.1em 0 -.06em}
+nav .links{display:flex;gap:18px;font-size:13px;font-weight:500;align-items:center}
+nav .links a{text-decoration:none;opacity:.85}
+nav .links a:hover{opacity:1;color:var(--gold-l)}
+nav .cta{background:var(--gold);color:#fff;padding:6px 14px;border-radius:2px;opacity:1!important;font-weight:700}
+@media(max-width:860px){nav .links a:not(.cta){display:none}}
+@media(max-width:420px){nav .logo{font-size:14px;letter-spacing:.08em}nav .cta{font-size:12px;padding:5px 10px}}
+
+/* ---------- HERO ---------- */
+.hero{min-height:100svh;display:flex;align-items:center;padding:110px 0 70px;overflow:hidden;
+  background:
+    radial-gradient(ellipse 70% 60% at 85% 20%,rgba(201,165,78,.16),transparent 60%),
+    linear-gradient(160deg,var(--red) 0%,var(--red-d) 75%,var(--red-dd) 100%)}
+.hero::before{content:"";position:absolute;inset:0;
+  background:repeating-linear-gradient(115deg,transparent 0 38px,rgba(255,255,255,.03) 38px 40px);pointer-events:none}
+.hero .big-kanji{position:absolute;right:-4vw;top:50%;transform:translateY(-50%);
+  font-family:var(--mincho);font-weight:800;font-size:min(46vw,560px);line-height:1;color:rgba(255,255,255,.06);
+  writing-mode:vertical-rl;pointer-events:none;user-select:none}
+.hero-inner{position:relative;z-index:2}
+.hero .tag{display:inline-block;border:1px solid var(--gold-l);color:var(--gold-l);font-weight:500;
+  padding:4px 14px;font-size:13px;letter-spacing:.12em;margin-bottom:22px}
+.hero h1{font-family:var(--mincho);font-weight:800;font-size:clamp(34px,7.4vw,84px);line-height:1.2;letter-spacing:.06em}
+.hero h1 .band{display:inline-block;padding:.06em .35em .1em;margin-bottom:.14em;
+  background:linear-gradient(90deg,var(--red-dd) 70%,rgba(58,15,20,0))}
+.hero h1 .band.gold{background:linear-gradient(90deg,var(--gold) 70%,rgba(156,122,37,0))}
+.hero .en-sub{font-family:var(--en);font-weight:700;color:var(--gold-l);font-size:clamp(15px,2vw,19px);margin-top:10px;letter-spacing:.04em}
+.hero .sub{font-size:clamp(15px,2.2vw,19px);margin-top:18px;color:var(--muted);font-weight:400}
+.hero .sub b{color:var(--text);font-weight:700}
+
+.when{margin-top:30px;display:inline-flex;flex-wrap:wrap;gap:4px 18px;align-items:baseline;
+  border-top:1px solid var(--gold-l);border-bottom:1px solid var(--gold-l);padding:10px 4px}
+.when .d{font-family:var(--mincho);font-weight:800;font-size:clamp(20px,3vw,28px);letter-spacing:.05em}
+.when .p{font-size:14px;color:var(--muted)}
+
+.countdown{margin-top:30px;display:flex;gap:10px;flex-wrap:wrap;align-items:flex-end}
+.cd-label{width:100%;font-size:13px;letter-spacing:.2em;color:var(--gold-l);font-weight:500}
+.cd-box{background:rgba(0,0,0,.2);border:1px solid var(--line);min-width:84px;padding:12px 10px 8px;text-align:center}
+.cd-box .n{font-family:var(--en);font-weight:700;font-size:clamp(32px,6vw,56px);line-height:1;font-variant-numeric:tabular-nums}
+.cd-box .u{font-family:var(--en);font-size:12px;color:var(--muted);letter-spacing:.15em;margin-top:6px}
+.cd-box.days{background:var(--gold);border-color:var(--gold)}
+.cd-box.days .u{color:#fff6dd}
+
+.hero-ctas{margin-top:34px;display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-weight:700;
+  padding:14px 26px;border-radius:2px;font-size:15px;transition:transform .15s,box-shadow .15s;cursor:pointer;border:0;font-family:inherit}
+.btn:hover{transform:translateY(-2px)}
+.btn-gold{background:var(--gold);color:#fff;box-shadow:0 8px 22px rgba(0,0,0,.25)}
+.btn-white{background:#fff;color:var(--red)}
+.btn-ghost{border:1px solid #fff;color:#fff;background:transparent}
+
+/* ---------- INFO（白地） ---------- */
+.info{background:var(--paper);color:var(--black)}
+.info .eyebrow{color:var(--red)}
+.info .event-name{font-family:var(--mincho);font-weight:700;color:var(--red);font-size:clamp(16px,2.4vw,20px);margin:-6px 0 22px;letter-spacing:.05em}
+.info-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:0;border-top:3px solid var(--red)}
+.info-item{padding:26px 22px;border-bottom:1px solid rgba(114,30,39,.2)}
+.info-item:not(:last-child){border-right:1px solid rgba(114,30,39,.2)}
+@media(max-width:760px){.info-item{border-right:0!important}}
+.info-item dt{font-family:var(--en);font-size:13px;letter-spacing:.25em;font-weight:700;color:var(--red)}
+.info-item dd{font-family:var(--mincho);font-weight:800;font-size:22px;line-height:1.45;margin-top:8px}
+.info-item dd small{display:block;font-family:"Noto Sans JP";font-weight:500;font-size:13px;color:#6b5558;margin-top:4px}
+
+/* ---------- CONCEPT ---------- */
+.concept{text-align:center;overflow:hidden;background:var(--red-d)}
+.concept .stamp{font-family:var(--mincho);font-weight:800;line-height:1.3;font-size:clamp(34px,7vw,80px);letter-spacing:.04em}
+.concept .stamp .line2{color:var(--gold-l);display:block}
+.concept p.lead{max-width:700px;margin:36px auto 0;font-size:clamp(15px,2vw,17px);color:var(--muted)}
+.concept p.lead b{color:var(--text)}
+.map{margin:48px auto 0;max-width:720px;display:block}
+.map-cap{font-family:var(--en);font-weight:700;letter-spacing:.25em;font-size:12px;color:var(--gold-l);margin-top:8px}
+
+/* ---------- KAGAMI ---------- */
+.kagami{background:
+  linear-gradient(180deg,rgba(0,0,0,.25),transparent 30%),
+  repeating-linear-gradient(90deg,#3a0f14 0 2px,#431219 2px 6px);
+  border-top:3px solid var(--gold);border-bottom:3px solid var(--gold)}
+.kagami-grid{display:grid;grid-template-columns:1.05fr 1fr;gap:48px;align-items:center}
+@media(max-width:860px){.kagami-grid{grid-template-columns:1fr}}
+.kagami h2.sec .g{color:var(--gold-l)}
+.badge-guinness{display:inline-flex;align-items:center;gap:10px;background:var(--gold);color:#fff;
+  font-family:var(--en);font-weight:700;padding:8px 16px;font-size:14px;letter-spacing:.08em;margin-bottom:14px}
+.kagami p{color:var(--muted)}
+.kagami p b{color:#fff}
+.trio{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:26px 0}
+.trio div{border:1px solid rgba(201,165,78,.45);text-align:center;padding:12px 4px;font-family:var(--mincho);font-weight:800;font-size:18px}
+.trio div small{display:block;font-family:"Noto Sans JP";font-weight:500;font-size:11px;color:#d9c08a;letter-spacing:.1em}
+.trio .on{background:var(--gold);border-color:var(--gold)}
+.trio .on small{color:#fff3d4}
+.barrels svg{width:100%;height:auto;display:block}
+
+/* ---------- FESTIVAL ---------- */
+.fest{background:var(--red);overflow:hidden}
+.fest h2.sec{font-size:clamp(32px,6.5vw,70px)}
+.fest h2.sec .jack{font-family:var(--en);font-weight:700;color:#fff;background:var(--gold);padding:0 .18em;display:inline-block;transform:rotate(-2deg)}
+.fest .lead{font-size:clamp(15px,2vw,18px);max-width:680px;color:var(--muted)}
+.fest .lead b{color:#fff}
+
+.tram-stage{position:relative;overflow:hidden;margin-top:48px;height:clamp(200px,30vw,300px)}
+.tram-stage .city{position:absolute;left:0;right:0;bottom:46px;height:70%;opacity:.5}
+.tram-track{position:absolute;left:0;right:0;bottom:18px;height:8px;background:var(--red-dd);box-shadow:0 10px 0 -4px #2a0a0e}
+.tram-wire{position:absolute;left:0;right:0;top:4px;height:2px;background:rgba(0,0,0,.35)}
+.tram{position:absolute;bottom:24px;width:min(820px,150vw);animation:drive 18s linear infinite}
+.tram svg{width:100%;height:auto;display:block}
+@keyframes drive{from{transform:translateX(100vw)}to{transform:translateX(-110%)}}
+@media (prefers-reduced-motion:reduce){.tram{animation:none;left:20px}}
+
+.shops{margin-top:56px;display:grid;grid-template-columns:auto 1fr auto;gap:22px 28px;align-items:center;
+  border:1px solid var(--gold-l);padding:28px;background:rgba(0,0,0,.14)}
+@media(max-width:820px){.shops{grid-template-columns:1fr}}
+.shops .bottle{width:64px}
+@media(max-width:820px){.shops .bottle{display:none}}
+.shops h3{font-family:var(--mincho);font-weight:800;font-size:clamp(20px,3vw,27px);line-height:1.45}
+.shops h3 em{font-style:normal;color:var(--gold-l)}
+.shops p{color:var(--muted);font-size:14px;margin-top:6px}
+.shops .kinds{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.shops .kinds span{border:1px solid var(--line);font-size:13px;padding:2px 12px}
+
+.hang{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:22px;margin-top:70px}
+.ad{background:var(--paper);color:var(--black);padding:26px 20px 22px;position:relative;transform-origin:50% -26px;
+  animation:sway 4.5s ease-in-out infinite;box-shadow:0 14px 30px rgba(0,0,0,.25)}
+.ad:nth-child(2){animation-delay:-1.2s}.ad:nth-child(3){animation-delay:-2.4s}.ad:nth-child(4){animation-delay:-3.3s}
+.ad::before,.ad::after{content:"";position:absolute;top:-26px;width:2px;height:26px;background:rgba(0,0,0,.45)}
+.ad::before{left:22%}.ad::after{right:22%}
+@keyframes sway{0%,100%{transform:rotate(-1.4deg)}50%{transform:rotate(1.4deg)}}
+@media (prefers-reduced-motion:reduce){.ad{animation:none}}
+.ad .k{font-size:11px;font-weight:700;letter-spacing:.25em;color:var(--red)}
+.ad h3{font-family:var(--mincho);font-weight:800;font-size:22px;line-height:1.4;margin:6px 0 8px}
+.ad p{font-size:13px;color:#6b5558;line-height:1.7}
+.ad.dark{background:var(--red-dd);color:#fff}.ad.dark p{color:var(--muted)}.ad.dark .k{color:var(--gold-l)}
+
+/* ---------- SHARE（白地） ---------- */
+.share{text-align:center;background:var(--paper);color:var(--black)}
+.share .eyebrow{color:var(--red)}
+.share .mega{font-family:var(--mincho);font-weight:800;font-size:clamp(44px,10vw,110px);line-height:1.1;letter-spacing:.02em;color:var(--red)}
+.share .mega span{font-family:var(--en);font-weight:700;color:var(--gold)}
+.share p{margin:18px auto 30px;max-width:560px}
+.share-btns{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+.share-btns .btn{color:#fff}
+.b-x{background:#111}.b-line{background:#06c755}.b-fb{background:#1877f2}.b-copy{background:var(--red)}
+.hashtags{margin-top:22px;font-weight:700;color:var(--red);font-size:15px}
+
+/* ---------- CONTACT ---------- */
+.contact{background:var(--red-d)}
+.call-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:22px}
+.card{border:1px solid var(--line);padding:34px 26px;background:rgba(255,255,255,.04);position:relative;overflow:hidden;display:flex;flex-direction:column}
+.card .num{position:absolute;right:16px;top:4px;font-family:var(--en);font-weight:700;font-size:90px;line-height:1;color:rgba(255,255,255,.07)}
+.card h3{font-family:var(--mincho);font-weight:800;font-size:clamp(21px,2.6vw,26px);line-height:1.45;margin:8px 0 14px}
+.card h3 em{font-style:normal;color:var(--gold-l)}
+.card p{color:var(--muted);font-size:14.5px}
+.card ul{margin:14px 0 24px 1.2em;color:var(--muted);font-size:14px}
+.card .btn{margin-top:auto;align-self:flex-start}
+.card.spon{border-color:var(--gold-l);background:linear-gradient(160deg,rgba(156,122,37,.2),rgba(156,122,37,.03))}
+.mail-box{margin-top:44px;text-align:center;border-top:1px solid var(--line);padding-top:40px}
+.mail-box .label{font-size:13px;letter-spacing:.2em;color:var(--gold-l)}
+.mail-box .addr{font-family:var(--en);font-weight:700;font-size:clamp(22px,5vw,40px);word-break:break-all;margin:8px 0 16px;display:inline-block;text-decoration:none}
+.mail-box .addr:hover{color:var(--gold-l)}
+
+footer{padding:40px 0 60px;text-align:center;font-size:12px;color:var(--muted);background:var(--red-dd)}
+footer .f-logo{font-family:var(--mincho);font-weight:800;font-size:20px;color:#fff;margin-bottom:6px;letter-spacing:.1em}
+
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .8s,transform .8s}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(80px);background:var(--gold);color:#fff;
+  font-weight:700;padding:10px 20px;border-radius:2px;transition:transform .3s;z-index:60}
+.toast.show{transform:translateX(-50%) translateY(0)}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">修道高校<span class="n">69</span>回生同窓会</div>
+  <div class="links">
+    <a href="#info">開催概要</a>
+    <a href="#concept">コンセプト</a>
+    <a href="#kagami">鏡開き</a>
+    <a href="#festival">お祭り</a>
+    <a href="#contact" class="cta">情報・協賛はこちら</a>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="big-kanji" aria-hidden="true">攻</div>
+  <div class="wrap hero-inner">
+    <div class="tag">2027年度 修道学園（中・高）同窓大会</div>
+    <h1><span class="band">広島から、</span><br><span class="band">世界への挑戦。</span><br><span class="band gold">攻めの修道魂。</span></h1>
+    <div class="en-sub">From Hiroshima, to the World.</div>
+    <p class="sub">西条の修道OBと挑む <b>鏡開きギネス記録挑戦</b>。<br>開催3か月前から、お祭りです。<b>広島をJackします。</b></p>
+
+    <div class="when">
+      <span class="d" id="heroDate"></span>
+      <span class="p" id="heroPlace"></span>
+    </div>
+
+    <div class="countdown" aria-live="polite">
+      <div class="cd-label" id="cdLabel">開催まで あと</div>
+      <div class="cd-box days"><div class="n" id="cdD">--</div><div class="u">DAYS</div></div>
+      <div class="cd-box"><div class="n" id="cdH">--</div><div class="u">HOURS</div></div>
+      <div class="cd-box"><div class="n" id="cdM">--</div><div class="u">MIN</div></div>
+      <div class="cd-box"><div class="n" id="cdS">--</div><div class="u">SEC</div></div>
+    </div>
+
+    <div class="hero-ctas">
+      <a href="#contact" class="btn btn-gold">同窓会情報を送る →</a>
+      <a href="#share" class="btn btn-ghost">拡散する</a>
+    </div>
+  </div>
+</header>
+
+<!-- ============ INFO ============ -->
+<section class="info" id="info">
+  <div class="wrap">
+    <div class="eyebrow reveal">OVERVIEW</div>
+    <h2 class="sec reveal">開催概要</h2>
+    <div class="event-name reveal">2027年度 修道学園（中・高）同窓大会</div>
+    <dl class="info-grid reveal">
+      <div class="info-item"><dt>DATE</dt><dd id="infoDate"></dd></div>
+      <div class="info-item"><dt>PLACE</dt><dd id="infoPlace"></dd></div>
+      <div class="info-item"><dt>FESTIVAL</dt><dd id="infoFest"></dd></div>
+      <div class="info-item"><dt>TICKET</dt><dd>69回生15名が<br>売って回ります！<small>見かけたら、ぜひ声をかけてください</small></dd></div>
+    </dl>
+  </div>
+</section>
+
+<!-- ============ CONCEPT ============ -->
+<section class="concept" id="concept">
+  <div class="wrap">
+    <div class="eyebrow reveal">CONCEPT</div>
+    <div class="stamp reveal">広島から世界への挑戦。<span class="line2">攻めの修道魂。</span></div>
+    <p class="lead reveal">
+      広島で育ち、東京で、大阪で、福岡で——日本の各地で戦っている修道生が、一度ふるさとに集まる。<br>
+      懐かしむだけの同窓会では終わらせない。<b>次の挑戦を、ここから始める。</b><br>
+      期も、業界も、住む街も越えて——修道の名のもとに、もう一度、攻めよう。
+    </p>
+    <svg class="map reveal" viewBox="0 0 720 250" role="img" aria-label="日本各地から広島へ集まる線">
+      <g fill="none" stroke="#c9a54e" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="3 7" opacity=".9">
+        <path d="M250 165 Q 450 10 650 40"/>
+        <path d="M250 165 Q 430 40 590 85"/>
+        <path d="M250 165 Q 390 80 520 125"/>
+        <path d="M250 165 Q 340 110 440 145"/>
+        <path d="M250 165 Q 310 130 370 160"/>
+        <path d="M250 165 Q 180 140 120 190"/>
+        <path d="M250 165 Q 140 200 70 235"/>
+      </g>
+      <g fill="#fff" font-family="Shippori Mincho B1, serif" font-weight="700" font-size="14" text-anchor="middle">
+        <circle cx="650" cy="40" r="4.5"/><text x="650" y="26">札幌</text>
+        <circle cx="590" cy="85" r="4.5"/><text x="590" y="71">仙台</text>
+        <circle cx="520" cy="125" r="4.5"/><text x="536" y="112">東京</text>
+        <circle cx="440" cy="145" r="4.5"/><text x="440" y="173">名古屋</text>
+        <circle cx="370" cy="160" r="4.5"/><text x="370" y="188">大阪</text>
+        <circle cx="120" cy="190" r="4.5"/><text x="120" y="216">福岡</text>
+        <circle cx="70" cy="235" r="4.5"/><text x="106" y="240">那覇</text>
+      </g>
+      <circle cx="250" cy="165" r="17" fill="#9c7a25"/>
+      <circle cx="250" cy="165" r="17" fill="none" stroke="#c9a54e" stroke-width="2">
+        <animate attributeName="r" values="17;36" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="250" y="171" fill="#fff" font-family="Shippori Mincho B1, serif" font-weight="800" font-size="14" text-anchor="middle">広島</text>
+    </svg>
+    <div class="map-cap reveal">FROM ALL OVER JAPAN, BACK TO HIROSHIMA</div>
+  </div>
+</section>
+
+<!-- ============ KAGAMI ============ -->
+<section class="kagami" id="kagami">
+  <div class="wrap kagami-grid">
+    <div>
+      <div class="eyebrow reveal">CHALLENGE</div>
+      <div class="badge-guinness reveal">GUINNESS WORLD RECORDS 挑戦</div>
+      <h2 class="sec reveal">日本三大酒どころ<br><span class="g">西条</span>から、<br>鏡開きギネス記録に挑む。</h2>
+      <div class="trio reveal">
+        <div><small>京都</small>伏見</div>
+        <div><small>兵庫</small>灘</div>
+        <div class="on"><small>広島・東広島</small>西条</div>
+      </div>
+      <p class="reveal">
+        日本三大酒どころのひとつ、西条。その蔵元で活躍する<b>修道OBの協力</b>のもと、
+        同時に割る酒樽の数で<b>鏡開きのギネス世界記録</b>に挑戦します。<br>
+        「よいしょー！」の掛け声で、何百もの木槌が一斉に振り下ろされる瞬間を、全修道生で。
+      </p>
+    </div>
+    <div class="barrels reveal">
+      <svg viewBox="0 0 480 400" role="img" aria-label="木槌と並んだ酒樽のイラスト">
+        <defs>
+          <linearGradient id="wood" x1="0" x2="1"><stop offset="0" stop-color="#b98a4a"/><stop offset=".5" stop-color="#e3c189"/><stop offset="1" stop-color="#a87a3c"/></linearGradient>
+          <g id="taru">
+            <ellipse cx="0" cy="0" rx="58" ry="16" fill="#f3ead2" stroke="#6a4b1f" stroke-width="3"/>
+            <ellipse cx="0" cy="0" rx="46" ry="11" fill="#dfe7f2" opacity=".75"/>
+            <path d="M-58 0 L-58 96 Q0 116 58 96 L58 0 Q0 18 -58 0Z" fill="url(#wood)" stroke="#6a4b1f" stroke-width="3"/>
+            <path d="M-58 22 Q0 40 58 22" fill="none" stroke="#3b2a12" stroke-width="5"/>
+            <path d="M-58 78 Q0 96 58 78" fill="none" stroke="#3b2a12" stroke-width="5"/>
+            <rect x="-34" y="34" width="68" height="40" fill="#fff" stroke="#721e27" stroke-width="2"/>
+            <text x="0" y="62" text-anchor="middle" font-family="Shippori Mincho B1, serif" font-weight="800" font-size="22" fill="#721e27">修道</text>
+          </g>
+        </defs>
+        <g transform="translate(110 250) scale(.8)"><use href="#taru"/></g>
+        <g transform="translate(370 250) scale(.8)"><use href="#taru"/></g>
+        <g transform="translate(240 230)"><use href="#taru"/></g>
+        <g fill="#dfe7f2">
+          <circle cx="210" cy="200" r="5"/><circle cx="272" cy="196" r="6"/><circle cx="240" cy="182" r="4"/>
+          <circle cx="196" cy="180" r="3"/><circle cx="290" cy="176" r="3"/>
+        </g>
+        <g transform="rotate(-28 240 120)">
+          <rect x="234" y="40" width="12" height="150" rx="5" fill="#8a5a24"/>
+          <rect x="190" y="12" width="100" height="44" rx="10" fill="#c99a57" stroke="#6a4b1f" stroke-width="3"/>
+          <rect x="190" y="26" width="100" height="8" fill="#721e27"/>
+        </g>
+        <g stroke="#c9a54e" stroke-width="3" stroke-linecap="round" opacity=".85">
+          <line x1="240" y1="150" x2="240" y2="120"/><line x1="180" y1="170" x2="150" y2="150"/>
+          <line x1="300" y1="170" x2="330" y2="150"/><line x1="160" y1="210" x2="125" y2="205"/>
+          <line x1="320" y1="210" x2="355" y2="205"/>
+        </g>
+        <text x="240" y="390" text-anchor="middle" font-family="Times New Roman, Times, serif" font-weight="700" font-size="26" fill="#c9a54e" letter-spacing="4">YOISHO!!</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FESTIVAL ============ -->
+<section class="fest" id="festival">
+  <div class="wrap">
+    <div class="eyebrow reveal">FESTIVAL</div>
+    <h2 class="sec reveal">開催3か月前から、お祭りです。<br>広島を<span class="jack">Jack</span>します。</h2>
+    <p class="lead reveal"><b id="festLead"></b>。電車も、街角も、あのお店も。広島の街のあちこちに「修道魂」が現れます。見つけたら撮って、拡散してください。</p>
+  </div>
+
+  <div class="tram-stage" aria-hidden="true">
+    <div class="tram-wire"></div>
+    <svg class="city" viewBox="0 0 1200 200" preserveAspectRatio="none">
+      <path fill="#4f141b" d="M0 200V120h60V80h40v40h50V60h70v60h40V90h60v30h40V40h30l20-20 20 20h30v80h50V70h80v50h40V100h60v20h50V50h70v70h40V90h60v30h40V60h50v60h40V80h70v40h50V110h40v90z"/>
+    </svg>
+    <div class="tram-track"></div>
+    <div class="tram">
+      <svg viewBox="0 0 820 190">
+        <g stroke="#2a0a0e" stroke-width="3" fill="none">
+          <path d="M300 34 L330 4 L360 34"/><line x1="310" y1="4" x2="350" y2="4"/>
+        </g>
+        <g>
+          <rect x="10" y="34" width="395" height="130" rx="18" fill="#f5f0e6"/>
+          <rect x="415" y="34" width="395" height="130" rx="18" fill="#f5f0e6"/>
+          <rect x="403" y="50" width="14" height="104" fill="#2a0a0e" opacity=".6"/>
+          <rect x="10" y="104" width="395" height="44" fill="#3a0f14"/>
+          <rect x="415" y="104" width="395" height="44" fill="#3a0f14"/>
+          <rect x="10" y="100" width="800" height="5" fill="#9c7a25"/>
+          <g fill="#4f141b">
+            <rect x="34" y="48" width="58" height="42" rx="6"/><rect x="104" y="48" width="58" height="42" rx="6"/>
+            <rect x="174" y="48" width="38" height="82" rx="4"/><rect x="224" y="48" width="58" height="42" rx="6"/>
+            <rect x="294" y="48" width="58" height="42" rx="6"/><rect x="362" y="48" width="30" height="42" rx="6"/>
+            <rect x="430" y="48" width="58" height="42" rx="6"/><rect x="500" y="48" width="58" height="42" rx="6"/>
+            <rect x="570" y="48" width="38" height="82" rx="4"/><rect x="620" y="48" width="58" height="42" rx="6"/>
+            <rect x="690" y="48" width="58" height="42" rx="6"/><rect x="760" y="48" width="34" height="42" rx="6"/>
+          </g>
+          <g fill="#c9a54e" opacity=".8">
+            <circle cx="63" cy="70" r="9"/><circle cx="133" cy="72" r="9"/><circle cx="253" cy="70" r="9"/>
+            <circle cx="459" cy="72" r="9"/><circle cx="529" cy="70" r="9"/><circle cx="719" cy="71" r="9"/>
+          </g>
+          <text x="210" y="134" text-anchor="middle" font-family="Shippori Mincho B1, serif" font-weight="800" font-size="26" fill="#fff">攻めの<tspan fill="#c9a54e">修道魂</tspan>。</text>
+          <text x="612" y="134" text-anchor="middle" font-family="Times New Roman, Times, serif" font-weight="700" font-size="24" fill="#c9a54e">HIROSHIMA JACK!</text>
+        </g>
+        <g fill="#2a0a0e">
+          <rect x="40" y="160" width="110" height="12" rx="4"/><rect x="270" y="160" width="110" height="12" rx="4"/>
+          <rect x="440" y="160" width="110" height="12" rx="4"/><rect x="670" y="160" width="110" height="12" rx="4"/>
+          <circle cx="66" cy="174" r="12"/><circle cx="124" cy="174" r="12"/><circle cx="296" cy="174" r="12"/><circle cx="354" cy="174" r="12"/>
+          <circle cx="466" cy="174" r="12"/><circle cx="524" cy="174" r="12"/><circle cx="696" cy="174" r="12"/><circle cx="754" cy="174" r="12"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="shops reveal">
+      <svg class="bottle" viewBox="0 0 60 150" aria-hidden="true">
+        <rect x="22" y="0" width="16" height="10" fill="#9c7a25"/>
+        <path d="M22 10h16v28c0 8 18 14 18 30v74a6 6 0 0 1-6 6H10a6 6 0 0 1-6-6V68c0-16 18-22 18-30z" fill="#f5f0e6"/>
+        <rect x="10" y="78" width="40" height="56" fill="#fff" stroke="#9c7a25" stroke-width="1.5"/>
+        <text x="30" y="98" text-anchor="middle" writing-mode="tb" font-family="Shippori Mincho B1, serif" font-weight="800" font-size="13" fill="#721e27">修道魂</text>
+      </svg>
+      <div>
+        <h3>「<em>修道魂</em>」を置いてくださる<br>お店を、募集中です。</h3>
+        <p>お祭り期間中、店内に「修道魂」を設置してもよいお店を探しています。修道生がお店を訪れるきっかけになります。</p>
+        <div class="kinds"><span>飲食店</span><span>ホテル</span><span>小売店舗</span></div>
+      </div>
+      <a class="btn btn-white" id="mailShop">設置に協力する →</a>
+    </div>
+
+    <div class="hang">
+      <div class="ad"><div class="k">中吊り 01</div><h3>攻めの修道魂。</h3><p>広島から世界へ。<br>あの頃の続きを、始めよう。</p></div>
+      <div class="ad dark"><div class="k">中吊り 02</div><h3>鏡開き、<br>ギネスに挑む。</h3><p>西条の修道OBと、<br>世界記録を割りにいく。</p></div>
+      <div class="ad"><div class="k">中吊り 03</div><h3>広島を、<br>Jackします。</h3><p>街のお店に、<br>「修道魂」が現れる。</p></div>
+      <div class="ad dark"><div class="k">中吊り 04</div><h3>次の駅は、<br>同窓会。</h3><p>お降りの際は、<br>肩を叩き合ってください。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SHARE ============ -->
+<section class="share" id="share">
+  <div class="wrap">
+    <div class="eyebrow reveal">SPREAD THE WORD</div>
+    <div class="mega reveal">拡散<span>Welcome</span>!</div>
+    <p class="reveal">同期のLINEグループへ、SNSへ、ご家族へ。<br>このページを、どんどん広めてください。</p>
+    <div class="share-btns reveal">
+      <a class="btn b-x" id="shX" target="_blank" rel="noopener">X でポスト</a>
+      <a class="btn b-line" id="shLine" target="_blank" rel="noopener">LINE で送る</a>
+      <a class="btn b-fb" id="shFb" target="_blank" rel="noopener">Facebook</a>
+      <button class="btn b-copy" id="shCopy" type="button">リンクをコピー</button>
+    </div>
+    <div class="hashtags reveal">#攻めの修道魂　#修道69回生　#広島Jack</div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="eyebrow reveal">CONTACT</div>
+    <h2 class="sec reveal">あなたの力を、貸してください。</h2>
+    <div class="call-grid">
+      <div class="card reveal">
+        <div class="num">01</div>
+        <div class="eyebrow">FOR ALUMNI</div>
+        <h3>チケット、<em>売りに行きます。</em><br>同窓会情報ください！</h3>
+        <p>69回生15名が、チケットを持って売りに回ります。各期の同窓会・飲み会・部活OB会など、集まりの情報をお寄せください。</p>
+        <ul>
+          <li>期（卒業年）・会の名前</li>
+          <li>日時・場所・おおよその人数</li>
+          <li>幹事さんの連絡先</li>
+        </ul>
+        <a class="btn btn-gold" id="mailInfo">同窓会情報を送る →</a>
+      </div>
+      <div class="card reveal">
+        <div class="num">02</div>
+        <div class="eyebrow">FOR SHOPS</div>
+        <h3>「<em>修道魂</em>」を<br>置いてくれるお店、募集中！</h3>
+        <p>お祭り期間中、「修道魂」を設置してもよい飲食店・ホテル・小売店舗様を募集しています。</p>
+        <ul>
+          <li>飲食店</li>
+          <li>ホテル</li>
+          <li>小売店舗</li>
+        </ul>
+        <a class="btn btn-white" id="mailShop2">設置に協力する →</a>
+      </div>
+      <div class="card spon reveal">
+        <div class="num">03</div>
+        <div class="eyebrow">FOR SPONSORS</div>
+        <h3>スポンサー<em>大募集中</em>！</h3>
+        <p>修道生の挑戦を、一緒に盛り上げてくれる企業・団体・個人の方を募集しています。</p>
+        <ul>
+          <li>物品協賛</li>
+          <li>広告、会場内でのロゴ掲出</li>
+          <li>個人協賛（応援枠）</li>
+        </ul>
+        <a class="btn btn-gold" id="mailSpon">協賛について問い合わせる →</a>
+      </div>
+    </div>
+    <div class="mail-box reveal">
+      <div class="label">修道高校69回生同窓会 実行委員会 窓口</div>
+      <a class="addr" id="mailAddr"></a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="f-logo">攻めの修道魂。</div>
+  <div>修道高校69回生同窓会 実行委員会</div>
+  <div style="margin-top:6px">© <span id="yr"></span> Shudo 69th Alumni Committee</div>
+</footer>
+
+<div class="toast" id="toast">リンクをコピーしました</div>
+
+<script>
+/* ===================================================
+   ▼ ここだけ書き換えればOK（日時・場所・連絡先）
+   =================================================== */
+const CONFIG = {
+  eventStart: "2027-09-04T18:30:00+09:00",  // 本番（カウントダウンの基準）
+  dateLabel:  "2027年9月4日（土）",
+  timeLabel:  "午後6時30分〜",
+  place:      "リーガロイヤルホテル広島",
+  placeSub:   "4F",
+  festLabel:  "2027年6月4日〜9月4日",       // 開催3か月前から
+  email:      "shudo69alumni@gmail.com",
+  shareText:  "広島から世界への挑戦。攻めの修道魂。2027年9月4日、修道学園同窓大会で鏡開きギネス記録に挑戦！開催3か月前から広島をJackします。"
+};
+/* =================================================== */
+
+const $ = id => document.getElementById(id);
+$('heroDate').textContent  = CONFIG.dateLabel + ' ' + CONFIG.timeLabel;
+$('heroPlace').textContent = CONFIG.place + ' ' + CONFIG.placeSub;
+$('infoDate').innerHTML  = CONFIG.dateLabel + '<small>' + CONFIG.timeLabel + '</small>';
+$('infoPlace').innerHTML = CONFIG.place + '<small>' + CONFIG.placeSub + '</small>';
+$('infoFest').innerHTML  = CONFIG.festLabel + '<small>開催3か月前から、広島の街がお祭りに</small>';
+$('festLead').textContent = CONFIG.festLabel;
+$('yr').textContent = new Date().getFullYear();
+
+/* countdown */
+const target = new Date(CONFIG.eventStart).getTime();
+const pad = n => String(n).padStart(2,'0');
+function tick(){
+  const d = target - Date.now();
+  if (d <= 0){
+    $('cdLabel').textContent = 'ただいま開催中！';
+    ['cdD','cdH','cdM','cdS'].forEach(i => $(i).textContent = '00');
+    return;
+  }
+  const s = Math.floor(d/1000);
+  $('cdD').textContent = Math.floor(s/86400);
+  $('cdH').textContent = pad(Math.floor(s%86400/3600));
+  $('cdM').textContent = pad(Math.floor(s%3600/60));
+  $('cdS').textContent = pad(s%60);
+}
+tick(); setInterval(tick, 1000);
+
+/* mail */
+const mail = (subject, body) => 'mailto:' + CONFIG.email + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+$('mailAddr').textContent = CONFIG.email;
+$('mailAddr').href = 'mailto:' + CONFIG.email;
+$('mailInfo').href = mail('【同窓会情報】', '■ 期（卒業年）：\n■ 会の名前：\n■ 日時：\n■ 場所：\n■ おおよその人数：\n■ 幹事さんのお名前・連絡先：\n');
+const shopMail = mail('【修道魂 設置協力】', '■ 店舗名：\n■ 業態（飲食店／ホテル／小売店舗）：\n■ 所在地：\n■ ご担当者名・連絡先：\n■ 修道との関わり（OB等あれば）：\n');
+$('mailShop').href = shopMail;
+$('mailShop2').href = shopMail;
+$('mailSpon').href = mail('【協賛のご相談】', '■ 企業・団体名／お名前：\n■ ご担当者連絡先：\n■ ご関心のある協賛（物品協賛／広告・会場内ロゴ掲出／個人協賛）：\n■ 修道との関わり（OB等あれば）：\n');
+
+/* share */
+const url = location.href.startsWith('http') ? location.href.split('#')[0] : '';
+const txt = CONFIG.shareText + ' #攻めの修道魂 #修道69回生';
+$('shX').href    = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(txt) + (url ? '&url=' + encodeURIComponent(url) : '');
+$('shLine').href = 'https://line.me/R/share?text=' + encodeURIComponent(txt + (url ? ' ' + url : ''));
+$('shFb').href   = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url || 'https://example.com');
+$('shCopy').onclick = async () => {
+  try { await navigator.clipboard.writeText(url || txt); } catch(e) {}
+  const t = $('toast'); t.classList.add('show'); setTimeout(() => t.classList.remove('show'), 1800);
+};
+
+/* reveal on scroll */
+const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} }), {threshold:.12});
+document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+</body>
+</html>
