@@ -193,7 +193,8 @@ nav .cta{background:var(--gold);color:#fff;padding:6px 14px;border-radius:2px;op
 .card h3 em{font-style:normal;color:var(--gold-l)}
 .card p{color:var(--muted);font-size:14.5px}
 .card ul{margin:14px 0 24px 1.2em;color:var(--muted);font-size:14px}
-.card .btn{margin-top:auto;align-self:flex-start}
+.card .btn{align-self:flex-start}
+.card > a.btn:first-of-type{margin-top:auto}
 .card.spon{border-color:var(--gold-l);background:linear-gradient(160deg,rgba(156,122,37,.2),rgba(156,122,37,.03))}
 .mail-box{margin-top:44px;text-align:center;border-top:1px solid var(--line);padding-top:40px}
 .mail-box .label{font-size:13px;letter-spacing:.2em;color:var(--gold-l)}
@@ -338,6 +339,10 @@ footer .f-logo{font-family:var(--mincho);font-weight:800;font-size:20px;color:#f
         同時に割る酒樽の数で<b>鏡開きのギネス世界記録</b>に挑戦します。<br>
         「よいしょー！」の掛け声で、何百もの木槌が一斉に振り下ろされる瞬間を、全修道生で。
       </p>
+      <div class="reveal" style="margin-top:26px">
+        <a class="btn btn-gold" href="kagami.html">鏡開き協賛（1枠5万円）に申し込む →</a>
+        <div style="font-size:12.5px;color:var(--muted);margin-top:8px">当日「最近挑戦していること」を宣伝いただけます。抽選制・個人協賛も歓迎。</div>
+      </div>
     </div>
     <div class="barrels reveal">
       <svg viewBox="0 0 480 400" role="img" aria-label="木槌と並んだ酒樽のイラスト">
@@ -508,7 +513,8 @@ footer .f-logo{font-family:var(--mincho);font-weight:800;font-size:20px;color:#f
           <li>広告、会場内でのロゴ掲出</li>
           <li>個人協賛（応援枠）</li>
         </ul>
-        <a class="btn btn-gold" id="mailSpon">協賛について問い合わせる →</a>
+        <a class="btn btn-gold" href="kagami.html" style="margin-bottom:10px">鏡開き協賛に申し込む →</a>
+        <a class="btn btn-ghost" id="mailSpon" style="align-self:flex-start">その他の協賛を問い合わせる</a>
       </div>
     </div>
     <div class="mail-box reveal">
